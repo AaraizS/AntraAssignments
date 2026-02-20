@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack A Mole</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Whack-A-Mole</h1>
+        <p class="score">Your total score is 0</p>
+        <button id="start-btn" class="start-btn">Start Game!</button>
+    </header>
+    <div class="game-board" id="game-board">
+    </div>
+    <div class="timer" id="timer">
+        <span class="timer-label">Time Left</span>
+        <span class="timer-value" id="timer-value">30</span>
+    </div>
+    <script src="game.js"></script>
 </body>
 </html>
